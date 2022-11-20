@@ -24,6 +24,11 @@ namespace matteo.salvi._4h.MappaClasse4H
         {
             InitializeComponent();
         }
+        class utente
+        {
+            string nome;
+            string cognome;
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button b = sender as Button;
